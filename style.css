@@ -1,0 +1,65 @@
+body{
+   margin: 150px;
+   background-color: rgb(27, 26, 27);
+   font-style: oblique;
+}
+
+#img_redonda{
+height: 60px;
+height: 60px;
+border-radius:60%;
+
+}
+h2{
+   font-style: italic;
+   color: rgb(160, 127, 66);
+}
+h2  {
+   width: 250px;
+   float: left;
+   margin-right: 20px;
+   margin:center;
+   color: aqua;
+}
+
+img, h2 {
+    float: left;
+    text-align: center;
+    
+}
+h2{
+   text-align:center;
+   margin-left: 300px;
+
+   
+}
+
+nav ul{
+   list-style-type: none;
+   background-color: rgb(20, 20, 20);
+   padding: 0%;
+   margin: 5%;
+   overflow: hidden;
+
+}
+
+nav a{
+   color:aqua;
+   text-decoration: none;
+   padding: 90px;
+   display: ruby-base;
+   text-align:center;
+   }
+   nav li{
+      float: left;
+   }
+   h1{
+      width: 10%;
+      color:aqua;
+      margin: 40px;
+   }
+   body h2{
+    color:blanchedalmond
+
+   }
+   
