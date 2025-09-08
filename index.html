@@ -1,42 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-      
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <h1>portifolio</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Teobaldo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0;
+      background-color: #2b6cb0;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      animation: fadeInDown 1s ease-out;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      margin-top: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #90cdf4;
+    }
+
+    .perfil {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .perfil h2 {
+      font-size: 2rem;
+      color: #2b6cb0;
+      margin-bottom: 10px;
+    }
+
+    .perfil p {
+      font-size: 1.1rem;
+      max-width: 600px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #2b6cb0;
+      color: white;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
-
- 
-   <nav>
-        <a href="index.html"></a> </a>
-        <ul>
-
-            <li><a href="home.html">home</a></li>
-            <li><a href="skil.html">skil</a></li>
-            <li><a href="perfil.html">perfil</a></li>
-            <li><a href="projetos.html">projetos</a></li>
-        </ul>
-    </nav>
-
-  
-
- <img src="portifolio.png" alt="Profile Picture" width="200" height="200">
-    <div>
-
-         <h2>Sou Teobaldo</h2>
-         <h2>Desenvolvedor Web Devolper</h2>
-         
-         
-    </div>
-   
-
-</section>
-</body>
 <body>
-     
-</body>
 
+  <header>
+    <h1>Portfólio</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="perfil.html">Perfil</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="perfil">
+      <h2>Sou Teobaldo</h2>
+      <p>Desenvolvedor Web apaixonado por criar experiências digitais incríveis. Trabalho com HTML, CSS, JavaScript e estou sempre aprendendo novas tecnologias para entregar projetos modernos e funcionais.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Teobaldo. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
 </html>
